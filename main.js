@@ -2,6 +2,10 @@ const inputFrom = document.getElementById("input-form");
 const newTask = document.getElementById("new-input-task");
 const allTask = document.querySelector(".task");
 
+// document.querySelector("body").addEventListener("click", (event) => {
+//   console.log(event.target.innerHTML);
+// });
+
 inputFrom.addEventListener("submit", (e) => {
   e.preventDefault();
   if (!newTask.value) {
